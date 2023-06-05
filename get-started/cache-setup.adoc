@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-setup.html 
+keywords: bluexp, volume caching, 
+summary: 若要使用 BlueXP Volume 快取、請執行幾個步驟來設定。 
+---
+= 設定 BlueXP Volume 快取
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要使用 BlueXP Volume 快取、請執行幾個步驟來設定。
+
+* 檢閱 link:../get-started/cache-prerequisites.html["先決條件"] 確保您的環境已準備就緒。
+* 建立 BlueXP Connector 。
+* 建立工作環境。
+
+
+
+
+== 在 BlueXP 中建立 Connector
+
+下一步是在 BlueXP 中建立 Connector 。
+
+若要在使用此服務之前在 BlueXP 中建立 Connector 、請參閱說明的 BlueXP 文件 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["如何建立連接器"^]。
+
+
+
+== 建立工作環境
+
+如果您尚未建立來源和目標的工作環境、則需要建立工作環境。
+
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["建立Amazon FSX以利ONTAP 不工作環境"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在Cloud Volumes ONTAP AWS中啟動"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在Cloud Volumes ONTAP Azure中推出功能"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP GCP中推出"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["新增現有Cloud Volumes ONTAP 的系統"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["探索 ONTAP 叢集"^]
+

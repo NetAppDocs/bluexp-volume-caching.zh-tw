@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-prerequisites.html 
+keywords: what are bluexp volume caching requirements, volume caching prerequisites 
+summary: 驗證您的環境、網路存取、登入和網頁瀏覽器的支援、以開始使用 BlueXP Volume 快取。 
+---
+= BlueXP Volume 快取先決條件
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+首先、請確認您的營運環境、登入、網路存取和網頁瀏覽器是否準備就緒。
+
+若要使用 BlueXP Volume 快取、您應該確保環境符合所有需求。
+
+* 更新版本ONTAP
++
+** 叢集管理 ONTAP 權限
+** 叢集間的生命體
+
+
+* 在 BlueXP 中：
++
+** BlueXP Connector 需要在 NetApp BlueXP 中設定。所有來源叢集和目標叢集都必須位於相同的 BlueXP Connector 上。請參閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXP 快速入門"^] 和 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["深入瞭解連接器"^]。
+** 應建立工作環境。
+** 叢集應新增至目標工作環境中、並處於「開啟」或「降級」狀態。
+** 標準 BlueXP 需求。請參閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXP 需求"]。
+
+
+

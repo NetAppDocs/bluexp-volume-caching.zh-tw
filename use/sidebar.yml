@@ -1,0 +1,12 @@
+---
+section: use
+title: 使用 BlueXP Volume 快取
+entries:
+- title: 使用 BlueXP Volume 快取總覽
+  url: "/use/cache-use-overview.html"
+- title: 建立快取
+  url: "/use/cache-create.html"
+- title: 管理快取
+  url: "/use/cache-manage.html"
+- title: 監控 Volume 快取工作
+  url: "/use/monitor-jobs.html"

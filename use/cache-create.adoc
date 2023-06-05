@@ -1,0 +1,114 @@
+---
+sidebar: sidebar 
+permalink: use/cache-create.html 
+keywords: volume caching, bluexp volume caching 
+summary: Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。快取磁碟區是讀取密集工作負載的理想選擇、尤其是用戶端需要重複存取相同資料的地方。 
+---
+= 建立快取
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在 Amazon FSX for ONTAP 、 Cloud Volumes ONTAP 和內部部署 ONTAP 之間建立磁碟區快取、並將來源工作環境中的一或多個來源磁碟區做為快取來源。接著、您可以選擇快取磁碟區的儲存虛擬機器。
+
+快取磁碟區可以位於與來源磁碟區相同的叢集或不同的叢集上。您選取要快取的磁碟區必須屬於同一個儲存 VM 、而且儲存 VM 必須使用相同的傳輸協定。
+
+
+TIP: 如果磁碟區不符合快取的資格、它們會呈現灰色、因此您無法選取它們。
+
+您可以輸入快取磁碟區的大小、以來源磁碟區大小的百分比表示。
+
+
+NOTE: 快取磁碟區使用的 IPSpace 取決於來源儲存 VM 使用的 IPSpace 。
+
+快取磁碟區名稱使用的尾碼 `pass:macros[_cache]` 已新增至原始磁碟區名稱。
+
+
+
+== BlueXP Volume 快取登陸頁面的步驟
+
+. 登入 BlueXP 、然後從左側導覽中選取 * 行動力 * > * 磁碟區快取 * 。
++
+您將進入 BlueXP Volume 快取儀表板頁面。當您第一次開始使用服務時、需要新增快取資訊。稍後、儀表板會顯示、並顯示快取的相關資料。
+
++
+
+NOTE: 如果您尚未設定 BlueXP Connector 、則會出現 * 新增連接器 * 選項、而非 * 新增快取 * 。在這種情況下、您需要先設定 Connector 。請參閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXP 快速入門"^]。
+
++
+image:landing-page.png["Volume 快取的登陸頁面"]
+
+. 選取 * 新增快取 * 。
+. 在「快取資料」頁面中、選取工作環境來源和目標快取、然後選取 * 開始快取精靈 * 。
+. 在「設定快取」頁面中、選取您要快取的磁碟區。
++
+
+NOTE: 您最多可以選取 50 個磁碟區。
+
+. 向下捲動頁面、對 VM 詳細資料或 Volume 大小進行其他變更。
+. 輸入快取磁碟區的大小、以來源磁碟區大小的百分比表示。
++
+
+TIP: 最棒的規則是快取磁碟區大小應約為來源磁碟區大小的 15% 。
+
+. 勾選 * 快取存取 * 方塊、將 NFS 匯出原則規則和 SMB/CIFS 共用組態從來源磁碟區複寫到目標快取磁碟區。
++
+然後、來源磁碟區中的 NFS 匯出原則規則和 SMB/CIFS 共用會複寫到快取磁碟區。如果未在快取儲存 VM 上啟用 SMB/CIFS 通訊協定、則 SMB/CIFS 共用將不會複寫。
+
+. 您也可以輸入快取名稱前置碼。
+
+
+的後置詞 `pass:macros[_cache]` 以下列格式附加至名稱： `<user-specified prefix>_<source volume name>_cache`
+
+. 選取 * 建立快取 * 。
++
+新的快取會出現在快取清單中。快取磁碟區名稱將會顯示 `pass:macros[_cache]` 做為來源磁碟區名稱的尾碼。
+
+. 若要查看作業進度、請從頂端功能表中選取 image:settings-icon.png["設定圖示"] >* 時間表 * 。
+
+
+
+
+== BlueXP 畫布的步驟
+
+. 從 BlueXP 畫布中選取工作環境。
+. 選取來源環境、然後將其拖曳至目的地。
+image:drag-n-drop.png["拖放功能以建立快取"]
+. 選取 * Volume 快取 * 服務。
++
+這會建立從來源到目的地的快取磁碟區。
+
+. 在右窗格的快取服務方塊中、選取 * 新增 * 。
+. 在「快取資料」頁面中、選取您要快取的工作環境、然後選取 * 開始快取精靈 * 。
+image:cache-data.png["快取資料快顯視窗"]
+. 在「設定快取」頁面中、選取您要快取的磁碟區。
++
+
+NOTE: 您最多可以選取 50 個磁碟區。
+
+. 向下捲動頁面、對 VM 詳細資料或 Volume 大小進行其他變更。
+. 輸入快取磁碟區的大小、以來源磁碟區大小的百分比表示。
++
+
+TIP: 最棒的規則是快取磁碟區大小應約為來源磁碟區大小的 15% 。
+
++
+image:create-cache.png["新增快取的視窗"]
+
+. 勾選 * 快取存取 * 方塊、將 NFS 匯出原則規則和 SMB/CIFS 共用組態從來源磁碟區複寫到目標快取磁碟區。
++
+然後、來源磁碟區中的 NFS 匯出原則規則和 SMB/CIFS 共用會複寫到快取磁碟區。如果未在快取儲存 VM 上啟用 SMB/CIFS 通訊協定、則 SMB/CIFS 共用將不會複寫。
+
+. 您也可以輸入快取名稱前置碼。
++
+的後置詞 `pass:macros[_cache]` 以下列格式附加至名稱： `<user-specified prefix>_<source volume name>_cache`
+
+. 選取 * 建立快取 * 。
++
+新的快取會出現在快取清單中。快取磁碟區名稱將會顯示 `pass:macros[_cache]` 做為來源磁碟區名稱的尾碼。
+
+. 若要查看作業進度、請從頂端功能表中選取 image:settings-icon.png["設定圖示"] >* 時間表 * 。
+

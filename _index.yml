@@ -1,0 +1,34 @@
+---
+indexpage:
+  lead: Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。快取磁碟區是讀取密集工作負載的理想選擇、尤其是用戶端需要重複存取相同資料的地方。
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 瞭解 BlueXP Volume 快取
+      url: "/get-started/cache-intro.html"
+    - title: BlueXP Volume 快取的新功能
+      url: "/release-notes/cache-whats-new.html"
+    - title: 快速入門
+      url: "/get-started/cache-quick-start.html"
+    - title: 先決條件
+      url: "/get-started/cache-prerequisites.html"
+    - title: 登入 BlueXP Volume 快取
+      url: "/get-started/cache-login.html"
+    - title: 常見問題集
+      url: "/get-started/cache-faq.html"
+  - title: 使用 BlueXP Volume 快取
+    links:
+    - title: 使用 BlueXP Volume 快取總覽
+      url: "/use/cache-use-overview.html"
+    - title: 建立快取
+      url: "/use/cache-create.html"
+    - title: 管理快取
+      url: "/use/cache-manage.html"
+    - title: 監控 Volume 快取工作
+      url: "/use/monitor-jobs.html"
+  - title: 部落格與社群
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: 雲端網路研討會
+      url: https://bluexp.netapp.com/events

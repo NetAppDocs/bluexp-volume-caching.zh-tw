@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: use/cache-use-overview.html 
+keywords: volume caching, volume caching 
+summary: Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。快取磁碟區是讀取密集工作負載的理想選擇、尤其是用戶端需要重複存取相同資料的地方。 
+---
+= 使用 BlueXP Volume 快取總覽
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用 BlueXP Volume 快取、您可以達成下列目標：
+
+* link:../use/cache-create.html["建立快取"]。
+* link:../use/cache-manage.html#view-cache-details["檢視快取詳細資料"]。
+* link:../use/cache-manage.html#assign-a-different-cache-export-policy["變更匯出原則並調整快取大小"]。
+* link:../use/cache-manage.html#delete-a-volume-cache["刪除快取"]。
+* link:../use/monitor-jobs.html["監控磁碟區快取作業"] 在 BlueXP 時間表上。
+

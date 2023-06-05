@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-faq.html 
+keywords: volume caching faq, caching frequently asked questions 
+summary: 如果您只是想要快速回答問題、這個常見問題集就能幫上忙。 
+---
+= BlueXP Volume 快取的常見問題集
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您只是想要快速回答問題、這個常見問題集就能幫上忙。
+
+* 什麼是 BlueXP Volume 快取 URL ？ *
+對於 URL 、請在瀏覽器中輸入： https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] 存取 BlueXP 主控台。
+
+* 您是否需要使用 BlueXP Volume 快取的授權？ *
+不需要 NetApp 授權檔案（ NLF ）。
+
+* 如何啟用 BlueXP 磁碟區快取？ *
+BlueXP Volume 快取不需要任何啟用。Volume 快取選項會自動出現在 BlueXP 左側導覽中。

@@ -1,0 +1,16 @@
+---
+section: get-started
+title: 開始使用
+entries:
+- title: 瞭解 BlueXP Volume 快取
+  url: "/get-started/cache-intro.html"
+- title: 先決條件
+  url: "/get-started/cache-prerequisites.html"
+- title: 快速入門
+  url: "/get-started/cache-quick-start.html"
+- title: 設定 BlueXP Volume 快取
+  url: "/get-started/cache-setup.html"
+- title: 存取 BlueXP Volume 快取
+  url: "/get-started/cache-login.html"
+- title: 常見問題集
+  url: "/get-started/cache-faq.html"
