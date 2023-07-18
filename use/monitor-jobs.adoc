@@ -16,8 +16,7 @@ summary: Volume 快取可在遠端位置提供持續且可寫入的 Volume 。�
 
 .步驟
 . 從頂端功能表中、選取 image:settings-icon.png["UI 上的設定圖示"] >* 時間表 * 。
-
-
++
 image:timeline.png["時間表畫面"]
 
 . 可選擇依時間、服務、行動、代理程式、 資源、使用者或狀態。

@@ -26,7 +26,6 @@
   <block id="b8c0701847f6b5a25da10d75bdbcba97" category="list-text">根據原始磁碟區大小的百分比來調整現有快取的大小。</block>
   <block id="e33b91d9e0fc1cfb3b1e4c432687e47d" category="list-text">刪除快取。</block>
   <block id="eed3d8fba58a64cd23112120a6117455" category="section-title">檢視快取詳細資料</block>
-  <block id="0c145dfc1eb76657a7a4df166c0b66ce" category="paragraph">對於每個磁碟區快取、您都可以看到原始磁碟區、工作環境、快取磁碟區等。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="d1c9964edff87a87de68804f22be74c3" category="list-text">從 BlueXP 左側導航欄中，選擇 *Mobility * &gt; * Volume &gt;</block>
   <block id="c3703d26913b6a8e23c55f9914bf4cf5" category="paragraph">您可以檢視在目的地環境中建立的快取磁碟區清單。快取清單會顯示快取詳細資料。</block>
@@ -34,7 +33,6 @@
   <block id="c9897a728d224b1031a3e8b6c1f025ae" category="list-text">選取列、然後選取右側的 * 動作… * 選項。</block>
   <block id="714df0afd8067aa43e79041c239c6f08" category="list-text">選取 * 檢視及編輯詳細資料 * 。</block>
   <block id="d120091c5d384d26aa6d9f90d1401035" category="list-text">檢閱詳細資料。</block>
-  <block id="1a100f2bbf2666bc71e1ca2df41dbae4" category="section-title">編輯磁碟區快取</block>
   <block id="5de1639bcf1d9741c547ce9e690a7ea1" category="paragraph">您可以變更快取的名稱、磁碟區大小和匯出原則。</block>
   <block id="feed808375e6b93e924213348d6e1b33" category="list-text">在「基本組態」標籤中、您可以選擇性地變更快取名稱和快取磁碟區大小。</block>
   <block id="f3bd519b868da90fe41b12102022d728" category="list-text">或者、展開「快取存取」索引標籤、然後修改這些值：</block>
@@ -48,12 +46,10 @@
   <block id="e7ce5893a6e3bdd09c32da72f9a3c69e" category="admonition">您可以將現有的匯出原則指派給快取。您無法變更匯出原則規則。如果您需要變更匯出原則、可以使用 NetApp 系統管理員。</block>
   <block id="4d418cdd8812dfcb356166d6eaf269f7" category="list-text">選取 * 變更匯出原則 * 。</block>
   <block id="b580ca1414e0a945196190cbfbc1f75d" category="list-text">選取您要指派給快取的匯出原則。</block>
-  <block id="0facd74870364491566999abda7da155" category="section-title">調整磁碟區快取大小</block>
   <block id="31bb5882b51789d8ff23370b949a73ec" category="paragraph">您可以根據來源磁碟區的百分比來變更快取磁碟區的大小。</block>
   <block id="782635f18c9a4c6e77f10be3b478b27a" category="list-text">選取 * 調整大小 * 。</block>
   <block id="c108e3ea3f3ec7a419ec6372a3325d79" category="list-text">輸入原始磁碟區大小的新百分比。</block>
   <block id="423f18c1cd7d2cab76c65e9cbd30b5d2" category="paragraph">快取磁碟區會調整為新的百分比。</block>
-  <block id="5ea9a7b72fdfad240bcd6031e41315ec" category="section-title">刪除磁碟區快取</block>
   <block id="8d4c7677b103c84ac6a97f6e946f6380" category="paragraph">如果您不再需要快取、可以將其刪除。這會刪除磁碟區快取關係、並刪除目標磁碟區快取。</block>
   <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">選擇*刪除*。</block>
   <block id="9b4532069e9bc4e1de3c019493dc5ee0" category="list-text">核取方塊。</block>
@@ -309,7 +305,6 @@
   <block id="1644e8c8713b99aa2a509321e1b03ba5" category="list-text">應建立工作環境。</block>
   <block id="c58af1fa22ce44dd1a1025cb0f4b05f2" category="list-text">叢集應新增至目標工作環境中、並處於「開啟」或「降級」狀態。</block>
   <block id="aaff2faa2ced4f59f2455d4de2f98292" category="inline-link">BlueXP 需求</block>
-  <block id="4794c4ce09084502402125b1568cd7cd" category="list-text">標準 BlueXP 需求。請參閱<block ref="2b0a54648fca0e58faa29a996b542b9f" category="inline-link-rx"></block>。</block>
   <block id="1a1a26c7d6b2ef9c40a4ce34bc1fb5d2" category="summary">若要使用 BlueXP Volume 快取、請執行幾個步驟來設定。</block>
   <block id="ebf46bf411152410728c588c0072ed7d" category="doc">設定 BlueXP Volume 快取</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">先決條件</block>
@@ -381,17 +376,11 @@
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
   <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 檢閱先決條件</block>
   <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">確保您的環境符合這些要求</block>
-  <block id="a1e2bf7b84e7ad927ddd410b9d874dd5" category="paragraph"><block ref="177c4b6e1d58f06fac0874e43e3f259e" category="inline-link-macro-rx"></block>。</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
   <block id="e24fd94067b6b8f0e224cd0a2563dc9e" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 設定 Volume 快取服務</block>
-  <block id="e0f9824c229df9f25c333def6604414f" category="paragraph"><block ref="51aea55bc989db5de100a13107e95eda" category="inline-link-macro-rx"></block>。</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
   <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 接下來呢？</block>
   <block id="0d5e44db30a371573d3409dc5db80551" category="paragraph">設定服務之後、接下來您可以做些什麼。</block>
-  <block id="48b3dd602662cd09e3ff942d7d7d86e7" category="list-text"><block ref="44097e6e438bd0da52a33e9714f35966" category="inline-link-macro-rx"></block>。</block>
-  <block id="4ae29836f57ec6d48790004a0be0103f" category="inline-link-macro">管理快取、包括調整快取磁碟區大小</block>
-  <block id="de01c3f54eb005d7d18e7033189bade6" category="list-text"><block ref="ccecbff0266495e0894568f947f74690" category="inline-link-macro-rx"></block>。</block>
-  <block id="98702f749d07d2417872796ae458ddc6" category="list-text"><block ref="2d0989ebd94e9b2d9d7d6e287ee62fed" category="inline-link-macro-rx"></block>。</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
   <block id="c75a48f561113d1e994a7fabb882df69" category="doc">BlueXP Volume 快取的常見問題集</block>
   <block id="942a771213d3b59ba27960f61d97b1ac" category="inline-link"><block ref="942a771213d3b59ba27960f61d97b1ac" category="inline-link-rx"></block></block>
@@ -417,4 +406,14 @@ BlueXP Volume 快取不需要任何啟用。Volume 快取選項會自動出現�
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
+  <block id="8aa6fa53d4ea5eb2e6cf7864a0814952" category="paragraph"><block ref="6d00d645d4db26355e2a4b6e5ebcd192" category="inline-link-macro-rx"></block>。</block>
+  <block id="c06a4886435e8d48e6894d1aa48f2ab2" category="paragraph"><block ref="48adfbc9f0529f5940a23fec5292b442" category="inline-link-macro-rx"></block>。</block>
+  <block id="36d2dfb130cc56d5eda3b8749b5bd6df" category="inline-link-macro">管理快取、編輯快取、調整快取大小或刪除快取</block>
+  <block id="7feb77d14601611c1fbc66f8aea36e7b" category="list-text"><block ref="06832ac35077da45cc1af571e236bfcd" category="inline-link-macro-rx"></block>。</block>
+  <block id="3a4d754d0c4ec1d71c54dc063043088b" category="list-text"><block ref="1f92bc5779f2f7dc3b853d4a9f3506c9" category="inline-link-macro-rx"></block>。</block>
+  <block id="71b27afebfaebe65131c0e3f59bd19b5" category="list-text">標準 BlueXP 需求。請參閱<block ref="7bb1cbf848372a4c4ec5becab92852c6" category="inline-link-rx"></block>。</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
+  <block id="5c69ebc5320400eed666c78803db34a8" category="paragraph">對於每個快取、您都可以看到原始磁碟區、工作環境、快取磁碟區等。</block>
+  <block id="5b783fc58734a11a740b6e1e60e08d60" category="section-title">編輯快取</block>
+  <block id="3085df87f3cd191beb32cd249232f641" category="section-title">調整快取大小</block>
 </blocks>

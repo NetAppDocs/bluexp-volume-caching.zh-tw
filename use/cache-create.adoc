@@ -59,8 +59,7 @@ TIP: 最棒的規則是快取磁碟區大小應約為來源磁碟區大小的 15
 然後、來源磁碟區中的 NFS 匯出原則規則和 SMB/CIFS 共用會複寫到快取磁碟區。如果未在快取儲存 VM 上啟用 SMB/CIFS 通訊協定、則 SMB/CIFS 共用將不會複寫。
 
 . 您也可以輸入快取名稱前置碼。
-
-
++
 的後置詞 `pass:macros[_cache]` 以下列格式附加至名稱： `<user-specified prefix>_<source volume name>_cache`
 
 . 選取 * 建立快取 * 。

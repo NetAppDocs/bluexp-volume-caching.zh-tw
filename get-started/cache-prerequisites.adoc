@@ -27,7 +27,7 @@ summary: 驗證您的環境、網路存取、登入和網頁瀏覽器的支援�
 ** BlueXP Connector 需要在 NetApp BlueXP 中設定。所有來源叢集和目標叢集都必須位於相同的 BlueXP Connector 上。請參閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXP 快速入門"^] 和 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["深入瞭解連接器"^]。
 ** 應建立工作環境。
 ** 叢集應新增至目標工作環境中、並處於「開啟」或「降級」狀態。
-** 標準 BlueXP 需求。請參閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXP 需求"]。
+** 標準 BlueXP 需求。請參閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["BlueXP 需求"^]。
 
 
 
