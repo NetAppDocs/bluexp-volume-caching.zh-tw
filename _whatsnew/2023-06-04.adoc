@@ -1,22 +1,6 @@
----
-sidebar: sidebar 
-permalink: release-notes/cache-whats-new.html 
-keywords: volume caching faq, bluexp, volume caching frequently asked questions 
-summary: Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。快取磁碟區是讀取密集工作負載的理想選擇、尤其是用戶端需要重複存取相同資料的地方。 
----
-= 新功能
-:hardbreaks:
+= Volume 快取
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
-
-[role="lead"]
-瞭解 BlueXP Volume 快取的新功能。
-
-
-
-== 2023 年 6 月 4 日
 
 
 
