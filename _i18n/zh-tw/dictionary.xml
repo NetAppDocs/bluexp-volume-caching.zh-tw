@@ -14,11 +14,9 @@
   <block id="aad34603323b5d4e67ae4a686a15b2e5" category="summary">Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。快取磁碟區是讀取密集工作負載的理想選擇、尤其是用戶端需要重複存取相同資料的地方。</block>
   <block id="5f63db6bf0512dc0612ee852c1faf373" category="doc">BlueXP Volume 快取</block>
   <block id="666d3c7d6ea7cfc7ea6e6e6faed1cdd3" category="doc">管理快取</block>
-  <block id="fc66df463880523a60b999aff387392a" category="paragraph">您可以編輯快取、變更匯出原則、調整快取大小、以及刪除快取。</block>
   <block id="1c0d8013e981cb31dcc7e8733c4fe705" category="paragraph">有了 BlueXP Volume 快取、您就能達成下列目標：</block>
   <block id="00ac51c16cde551605ec6cf0d3b91416" category="list-text">檢視快取詳細資料。</block>
   <block id="06fc18e5e4898299f1a818098e8e94c7" category="list-text">將不同的匯出原則指派給快取。</block>
-  <block id="8ba82ac05e167f153ba79532f2f1980a" category="list-text">編輯磁碟區快取並變更其大小等 「編輯」將可選擇檢視及變更其他內容、而在即將發行的版本中、編輯中會新增更多內容。</block>
   <block id="b8c0701847f6b5a25da10d75bdbcba97" category="list-text">根據原始磁碟區大小的百分比來調整現有快取的大小。</block>
   <block id="e33b91d9e0fc1cfb3b1e4c432687e47d" category="list-text">刪除快取。</block>
   <block id="eed3d8fba58a64cd23112120a6117455" category="section-title">檢視快取詳細資料</block>
@@ -34,23 +32,19 @@
   <block id="f3bd519b868da90fe41b12102022d728" category="list-text">或者、展開「快取存取」索引標籤、然後修改這些值：</block>
   <block id="4224fae747c5197aa6015f2364e1af12" category="list-text">掛載路徑。</block>
   <block id="77cf0358c33e9b52d8fd3920268e696c" category="list-text">與現有匯出原則不同的匯出原則。</block>
-  <block id="eccbd53b475458e412e8bcbe57009813" category="list-text">若要變更 SMB/CIFS 共用詳細資料或匯出原則規則、請按一下選項以存取 BlueXP System Manager 。</block>
   <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">選擇*保存*。</block>
   <block id="e48096df97c7e7e77282b4b97ee9bd9a" category="section-title">指派不同的快取匯出原則</block>
   <block id="4635bd9ae5cb389a0305a6b8455fa215" category="paragraph">您可以將不同的匯出原則指派給快取。</block>
   <block id="55d1d3e519ab62ebe0a1babb50ae6d72" category="paragraph">來源匯出原則規則應套用至目標叢集。</block>
-  <block id="e7ce5893a6e3bdd09c32da72f9a3c69e" category="admonition">您可以將現有的匯出原則指派給快取。您無法變更匯出原則規則。如果您需要變更匯出原則、可以使用 NetApp 系統管理員。</block>
   <block id="4d418cdd8812dfcb356166d6eaf269f7" category="list-text">選取 * 變更匯出原則 * 。</block>
   <block id="b580ca1414e0a945196190cbfbc1f75d" category="list-text">選取您要指派給快取的匯出原則。</block>
   <block id="31bb5882b51789d8ff23370b949a73ec" category="paragraph">您可以根據來源磁碟區的百分比來變更快取磁碟區的大小。</block>
   <block id="782635f18c9a4c6e77f10be3b478b27a" category="list-text">選取 * 調整大小 * 。</block>
   <block id="c108e3ea3f3ec7a419ec6372a3325d79" category="list-text">輸入原始磁碟區大小的新百分比。</block>
-  <block id="423f18c1cd7d2cab76c65e9cbd30b5d2" category="paragraph">快取磁碟區會調整為新的百分比。</block>
   <block id="8d4c7677b103c84ac6a97f6e946f6380" category="paragraph">如果您不再需要快取、可以將其刪除。這會刪除磁碟區快取關係、並刪除目標磁碟區快取。</block>
   <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">選擇*刪除*。</block>
   <block id="9b4532069e9bc4e1de3c019493dc5ee0" category="list-text">核取方塊。</block>
   <block id="15a05e063d4c5c1c840a1358ea5e2f1a" category="doc">建立快取</block>
-  <block id="f547278e453645a6383c4ea6320b1bfa" category="paragraph">您可以在 Amazon FSX for ONTAP 、 Cloud Volumes ONTAP 和內部部署 ONTAP 之間建立磁碟區快取、並將來源工作環境中的一或多個來源磁碟區做為快取來源。接著、您可以選擇快取磁碟區的儲存虛擬機器。</block>
   <block id="3bae4a7e1bd988883c56b21e3e66b177" category="paragraph">快取磁碟區可以位於與來源磁碟區相同的叢集或不同的叢集上。您選取要快取的磁碟區必須屬於同一個儲存 VM 、而且儲存 VM 必須使用相同的傳輸協定。</block>
   <block id="40d1cd0fd7b32697fca346c77e81cf33" category="admonition">如果磁碟區不符合快取的資格、它們會呈現灰色、因此您無法選取它們。</block>
   <block id="6594dee820a1fb7f669a0a7cf87596d3" category="paragraph">您可以輸入快取磁碟區的大小、以來源磁碟區大小的百分比表示。</block>
@@ -303,15 +297,8 @@
   <block id="00ebffbe73c6303da2faaad0ab45e519" category="list-text">將資料從一個雲端供應商快取至另一個雲端供應商、以移除雲端封閉環境</block>
   <block id="3539435a6de515609cc1b8543224f713" category="list-text">降低儲存成本</block>
   <block id="a1b38c81c5d745e1d6ec22e5dd6e03bc" category="list-text">跨地理區域協同作業</block>
-  <block id="a6d7999efa7a1a03a2c0e825c1cf9006" category="list-text">在 BlueXP 中使用 NetApp 託管服務</block>
-  <block id="c9ffd0422125f32e82a20e75ccd4fa42" category="list-text">能夠更快因應瞬息萬變的 IT 環境</block>
-  <block id="02472e415a539d0a8886679760e38e96" category="list-text">雲端託管的隨選或訂閱型 Volume 快取</block>
   <block id="c544441b0664ccc643b832fb4c1a2198" category="section-title">BlueXP Volume 快取的功能</block>
   <block id="afbfc91726ebc0228b09fab9d0c7cb8e" category="paragraph">BlueXP Volume 快取可讓您充分運用多項 NetApp 技術來達成下列目標：</block>
-  <block id="f291c3dfbe876e9b251168316e411067" category="paragraph">BlueXP Volume 快取服務可讓您充分運用多項 NetApp 技術來達成下列目標：</block>
-  <block id="b165c27356ec72ed87e0d89023b56a29" category="list-text">將資料從一個雲端供應商快取至另一個雲端供應商</block>
-  <block id="6d14d0fea89a1c59e9646774b2dce3ef" category="list-text">檢視及編輯快取匯出原則</block>
-  <block id="fd420f91fd55c70ed0b581da9becda92" category="list-text">調整現有快取的大小</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
   <block id="c060b927fb39869f82ce75db89638641" category="paragraph">NetApp 並不收取使用 BlueXP Volume 快取服務的費用、但您必須向雲端供應商查詢適用的資料進出費用。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">授權</block>
@@ -418,4 +405,16 @@ BlueXP Volume 快取不需要任何啟用。Volume 快取選項會自動出現�
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">將 NSS 認證與您的 BlueXP  組織建立關聯、不同於與 BlueXP  使用者登入相關聯的 NSS 帳戶。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">這些 NSS 認證會與您的特定 BlueXP  組織 ID 相關聯。屬於 BlueXP  組織的使用者可從 * 支援 &gt; NSS 管理 * 存取這些認證。</block>
   <block id="ff45d71e69fb5930de79de7c94326d7b" category="doc">Volume 快取</block>
+  <block id="a8bac84ff523e931f832e7db81860512" category="list-text">在 BlueXP  中使用 NetApp 託管服務</block>
+  <block id="6f8213fefb0b6762f1d9c530a2bae206" category="list-text">更快因應瞬息萬變的 IT 環境</block>
+  <block id="3d400de59ced76466bf7abdb0ec00cab" category="list-text">使用雲端託管的隨選或訂閱型 Volume 快取</block>
+  <block id="36d85431ec6c5bc79927239a19ced905" category="list-text">將資料從一個雲端供應商快取至另一個雲端供應商。</block>
+  <block id="c3369e7530496c918d055b6297c1bc2f" category="list-text">檢視及編輯快取匯出原則。</block>
+  <block id="00b68c9836b8e47862a5da8d7ba18007" category="list-text">調整現有快取的大小。</block>
+  <block id="61ab08005a7be6cbf1a790400ab44b84" category="paragraph">您可以在 Amazon FSX for ONTAP ， Cloud Volumes ONTAP 和內部部署 ONTAP 之間建立磁碟區快取，並將來源工作環境中的一或多個來源磁碟區做為快取來源。接著、您可以選擇快取磁碟區的儲存虛擬機器。</block>
+  <block id="75d18c897e2efc995fe22f47079933f7" category="paragraph">您可以編輯磁碟區快取，變更匯出原則，調整快取大小，以及刪除快取。</block>
+  <block id="2ab14afb0bc8eed1346cbbb6dae409ce" category="list-text">編輯磁碟區快取並變更其大小等屬性。</block>
+  <block id="b1173706a82c0b333329c5bf3779ae2a" category="list-text">若要變更 SMB/CIFS 共用詳細資料或匯出原則規則，請按一下選項以存取 ONTAP 系統管理員。</block>
+  <block id="535184ca902c3c0051ff3401e765baec" category="admonition">您可以將現有的匯出原則指派給快取。您無法變更匯出原則規則。如果您需要變更匯出原則，可以使用 ONTAP 系統管理員。</block>
+  <block id="c76e1ddfccba2139e45754bcf8276247" category="paragraph">快取磁碟區會調整為新的百分比。</block>
 </blocks>

@@ -12,7 +12,7 @@ summary: Volume 快取可在遠端位置提供持續且可寫入的 Volume 。�
 
 
 [role="lead"]
-您可以在 Amazon FSX for ONTAP 、 Cloud Volumes ONTAP 和內部部署 ONTAP 之間建立磁碟區快取、並將來源工作環境中的一或多個來源磁碟區做為快取來源。接著、您可以選擇快取磁碟區的儲存虛擬機器。
+您可以在 Amazon FSX for ONTAP ， Cloud Volumes ONTAP 和內部部署 ONTAP 之間建立磁碟區快取，並將來源工作環境中的一或多個來源磁碟區做為快取來源。接著、您可以選擇快取磁碟區的儲存虛擬機器。
 
 快取磁碟區可以位於與來源磁碟區相同的叢集或不同的叢集上。您選取要快取的磁碟區必須屬於同一個儲存 VM 、而且儲存 VM 必須使用相同的傳輸協定。
 
